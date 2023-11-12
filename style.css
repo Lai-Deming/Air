@@ -1,0 +1,103 @@
+@font-face {
+  font-family: mainfont;
+  src: url(./font/Poppins-Medium.ttf);
+}
+
+body {
+  font-family: mainfont;
+}
+.background {
+  background-image: url("./image/1.png");
+  background-size: cover;
+  opacity: 0.7;
+  height: 100vh;
+  width: 100vw;
+}
+
+.background-frame {
+  background-image: url("./image/1.png");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.background-air-3 {
+  background-image: url("./image/1.png");
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+}
+.background-air-event {
+  background-image: url("./image/Asset\ 1\ 2.png");
+  background-size: cover;
+}
+
+.female {
+  background: url("./Rectangle\ 24.png") no-repeat;
+  background-size: contain;
+  height: 100vh;
+  width: auto;
+}
+
+.bg-gray {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.bg-gray1 {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.num {
+  color: #542dc1;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+  opacity: 0.2;
+}
+
+.num-detail {
+  color: #000;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 115%;
+}
+
+.land {
+  background-color: rgba(201, 227, 251, 0.97);
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 10px;
+  outline: none;
+  width: 100%;
+  color: black;
+}
+.exp {
+  border: 5px solid white;
+  border-radius: 25vw;
+  width: 50vw;
+  height: 25vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.click:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  color: white;
+}
+
+.click1:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: blue;
+  color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+  .view {
+    display: none;
+  }
+}
